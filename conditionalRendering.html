@@ -1,0 +1,36 @@
+<template>
+   <lightning-card title="Login Option">
+    <div class="slds-p-around_medium">
+      <div class="slds-grid">
+        <div class="slds-col slds-p-horizontal_medium">
+          <lightning-input  type="checkbox" label="Members Login" onchange={MemberCboxOnchange} checked={isMemberLogin}></lightning-input>
+        </div>
+        <div class="slds-col slds-p-horizontal_medium">
+          <lightning-input type="checkbox" label="New Members SignIn" onchange={newMemberCboxOnchange} checked={isNewMemberSignIn}></lightning-input>
+        </div>
+      </div>
+      <div class="word  slds-text-heading_medium  slds-p-top_large" > Complete registration by selecting New Members SignIn options above</div>
+    </div>
+   </lightning-card>
+
+   <template lwc:if={isMemberLogin}>
+     <lightning-card title="Login Credentials">
+       <div class="slds-p-around_medium slds-m-around_medium loginBox">
+         <div><lightning-input type="text" placeholder="UserName " value={userLogin} onchange={handleLoginChange}></lightning-input></div>
+         <div><lightning-input type="password" placeholder="Password " value={userPassword} onchange={handlePwdChange}></lightning-input></div>
+         <div><lightning-button class="slds-align_absolute-center slds-p-top_large" label="Login" variant="brand" onclick={handleChangeLogin}></lightning-button></div>
+         <div class="slds-align_absolute-center slds-text-heading_medium slds-p-top_large">{message}</div>
+       </div>
+     </lightning-card>
+   </template>
+   <template lwc:if={isNewMemberSignIn}>
+      <lightning-card title="New Member Registration">
+        <div class="slds-p-around_medium slds-m-around_medium" >
+           <div><lightning-input type="text" value={login} label="Enter the name" onchange={newLoginChange}></lightning-input></div>
+           <div><lightning-input type="password" value={password} label="Enter the password" onchange={newPasswordChange}></lightning-input></div>
+           <div><lightning-button class="slds-align_absolute-center slds-p-top_large" label="Register" variant="brand" onclick={handleChangeRegister}></lightning-button></div>
+           <div class="slds-align_absolute-center slds-text-heading_medium slds-p-top_large errorMsg">{message}</div>
+        </div>
+      </lightning-card>
+    </template>
+</template>
