@@ -29,7 +29,7 @@ It highlights **data binding, event handling, form validation, and conditional t
 
 1. **Clone this repository**  
    ```bash
-   git clone https://github.com/yourusername/conditionalRendering.git
+   https://github.com/k-vasantharaj/Conditional-Rendering-in-LWC-Login-Registration-Component
 Deploy to Salesforce Org using SFDX or VS Code
 
 Open Lightning App Builder → Add the component to:
