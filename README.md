@@ -62,3 +62,10 @@ Click Login → You’ll see the result:
 ❌ Invalid Username/Password
 
 📸 Screenshots
+<img width="632" height="200" alt="bigText" src="https://github.com/user-attachments/assets/1b4a1764-f0c5-4ea4-a814-6cc085d639cb" />
+<img width="636" height="309" alt="blueText" src="https://github.com/user-attachments/assets/147c258d-b879-45fb-9e9c-baffe30a894e" />
+<img width="539" height="419" alt="highlight" src="https://github.com/user-attachments/assets/fbe7e398-d772-4d19-83ce-8cfce78a5a28" />
+<img width="636" height="275" alt="italicText" src="https://github.com/user-attachments/assets/b2532668-5c1f-4dad-ba59-0e28ded8cb34" />
+<img width="635" height="289" alt="monoText" src="https://github.com/user-attachments/assets/2c9da42b-ac46-4db6-ae5a-e554183992be" />
+<img width="634" height="291" alt="redText" src="https://github.com/user-attachments/assets/a2a7fe45-71b0-4c9c-82a5-ecd8c62ec5ab" />
+<img width="538" height="409" alt="word is not a palindrome" src="https://github.com/user-attachments/assets/1a26b14c-bd84-476a-bf3f-a8ca809572f1" />
